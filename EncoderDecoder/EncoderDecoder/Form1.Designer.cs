@@ -512,7 +512,7 @@
       this.btnGamm2.TabIndex = 17;
       this.btnGamm2.Text = "Дешифровать";
       this.btnGamm2.UseVisualStyleBackColor = true;
-      this.btnGamm2.Click += new System.EventHandler(this.btnGamm2_Click);
+      this.btnGamm2.Click += new System.EventHandler(this.btnGamm_Click);
       // 
       // tbGamm2
       // 
@@ -530,7 +530,7 @@
       this.btnGamm1.TabIndex = 15;
       this.btnGamm1.Text = "Шифровать";
       this.btnGamm1.UseVisualStyleBackColor = true;
-      this.btnGamm1.Click += new System.EventHandler(this.btnGamm1_Click);
+      this.btnGamm1.Click += new System.EventHandler(this.btnGamm_Click);
       // 
       // tbGamm1
       // 

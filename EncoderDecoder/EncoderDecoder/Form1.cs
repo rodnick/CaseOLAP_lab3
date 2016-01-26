@@ -29,8 +29,8 @@ namespace EncoderDecoder
     #region Atbash
     private void btnEncode1_Click(object sender, EventArgs e)
     {
-      tbAtbash2.Text = string.Empty;
-      tbAtbash2.Text += coderAtbash.encode(tbAtbash1.Text);
+      //tbAtbash2.Text = string.Empty;
+      //tbAtbash2.Text += coderAtbash.encode(tbAtbash1.Text);
 
       //for (int i = 0; i < textBox1.Text.Length; i++)
       //{
@@ -124,13 +124,7 @@ namespace EncoderDecoder
     #endregion
 
     #region MethodXOR
-    private void btnGamm1_Click(object sender, EventArgs e)
-    {
-      tbGamm2.Text = string.Empty;
-      tbGamm2.Text += coderGamm.encode(tbGamm1.Text, tbGamm3.Text);
-    }
-
-    private void btnGamm2_Click(object sender, EventArgs e)
+    private void btnGamm_Click(object sender, EventArgs e)
     {
       tbGamm2.Text = string.Empty;
       tbGamm2.Text += coderGamm.encode(tbGamm1.Text, tbGamm3.Text);
@@ -146,8 +140,7 @@ namespace EncoderDecoder
 
     private void btnAffineDecode_Click(object sender, EventArgs e)
     {
-      tbAffine2.Text = string.Empty;
-      tbAffine2.Text += coderAffine.encode(tbAffine1.Text, tbAffine3.Text, tbAffine4.Text);
+      
     }
     #endregion
   }
